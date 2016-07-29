@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_Add_TSR"
+        android:title="Add TSR" />
+    <item android:id="@+id/menu_Profile"
+        android:title="Profile" />
+    <item android:id="@+id/menu_OtherContacts"
+        android:title="Other Contacts" />
+    <item android:id="@+id/menu_Webbies"
+        android:title="Webbies" />
+    <item android:id="@+id/menu_Logout"
+        android:title="Logout" />
+</menu>

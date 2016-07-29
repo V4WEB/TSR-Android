@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.loginexample.v4web.tsrlogin.Profile">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="V4Webbie Profile"
+                android:typeface="sans"
+                android:textSize="35sp"
+                android:textColor="#f44336"
+                android:textStyle="bold"
+                android:gravity="left"
+                android:id="@+id/Title1"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f44336"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="V4Webbie Name"
+                android:paddingTop="16dp"
+                android:typeface="sans"
+                android:textSize="20sp"
+                android:textColor="#f44336"
+                android:textStyle="bold"
+                android:gravity="left"
+                android:id="@+id/V4webbieName"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="V4Webbie Age"
+                android:typeface="sans"
+                android:textSize="20sp"
+                android:textColor="#f44336"
+                android:textStyle="bold"
+                android:gravity="left"
+                android:id="@+id/V4webbieAge"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="V4Webbie Mobile No"
+                android:typeface="sans"
+                android:textSize="20sp"
+                android:textColor="#f44336"
+                android:textStyle="bold"
+                android:autoLink="all"
+                android:gravity="left"
+                android:id="@+id/V4webbieMob"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

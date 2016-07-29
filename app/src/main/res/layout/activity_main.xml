@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:padding="10dp"
+    android:touchscreenBlocksFocus="false">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="V4WEB TSR"
+            android:typeface="sans"
+            android:textSize="35sp"
+            android:textColor="#f44336"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:id="@+id/Title1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="(V4Webbies please login)"
+            android:typeface="sans"
+            android:textSize="15sp"
+            android:textColor="#f44336"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:id="@+id/Title2"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="#e57373"
+            android:textStyle="bold"
+            android:textColorHint="#e57373"
+            android:background="#ffebee"
+            android:padding="10dp"
+            android:typeface="normal"
+            android:hint="Username"
+            android:textSize="20sp"
+            android:id="@+id/edtuserid" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="Password"
+            android:textColor="#e57373"
+            android:textColorHint="#e57373"
+            android:textStyle="bold"
+            android:background="#ffebee"
+            android:padding="10dp"
+            android:typeface="normal"
+            android:inputType="textPassword"
+            android:layout_marginTop="5dp"
+            android:id="@+id/edtpass" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f44336"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/btnlogin"
+            android:text="Login" />
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/pbbar" />
+    </LinearLayout>
+</RelativeLayout>
